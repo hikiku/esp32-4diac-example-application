@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "ESP-IDF",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/liangz/esp/esp-idf/components/**",
+                "/home/liangz/Secret/wrk/org.eclipse.4diac.forte/src/core/datatypes/**",
+                "/home/liangz/Secret/wrk/org.eclipse.4diac.forte/src/core/**"
+                // "/home/liangz/Secret/wrk/org.eclipse.4diac.forte/src/modules/mymods/**"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**",
+                    "/home/liangz/esp/esp-idf/components/**",
+                    "/home/liangz/Secret/wrk/org.eclipse.4diac.forte/src/core/datatypes/**",
+                    "/home/liangz/Secret/wrk/org.eclipse.4diac.forte/src/core/**"
+                    // "/home/liangz/Secret/wrk/org.eclipse.4diac.forte/src/modules/mymods/**"
+                ],
+                "limitSymbolsToIncludedHeaders": false
+            },
+            // "compileCommands": "${workspaceFolder}/build/compile_commands.json",
+            "configurationProvider": "ms-vscode.cmake-tools",
+            // "compilerPath": "/home/arek/Software/espressif-tools/tools/xtensa-esp32s2-elf/esp-2021r2-8.4.0/xtensa-esp32s2-elf/bin/xtensa-esp32s2-elf-gcc"
+            "compilerPath": "${config:idf.toolsPath}/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc"
+        }
+    ],
+    "version": 4
+}
