@@ -9,13 +9,7 @@
 
 #include "esp_err.h"
 
-
-
-
-
 extern int isobus_main(void);
-
-
 extern void Network_softAP_main(void);
 extern void forte_main(void);
 extern void file_server_main1(void);
@@ -64,5 +58,3 @@ void app_main(void)
     vTaskDelay(2000 / portTICK_PERIOD_MS);
     printf("forte_main done \n");
 }
-
-

@@ -1,10 +1,10 @@
 # ESP32 4DIAC Example Application
 
-Refer to [esp32 4diac example application](https://gitlab.com/meisterschulen-am-ostbahnhof-munchen/esp32-4diac-example-application).
+This library is based to [esp32 4diac example application](https://gitlab.com/meisterschulen-am-ostbahnhof-munchen/esp32-4diac-example-application).
 
 ## Docs
 
-See [here](https://github.com/hikiku/4diac-forte-esp32-component).
+See [here](https://github.com/hikiku/esp-4diac-forte).
 
 ## TODO
 
